@@ -21,10 +21,17 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
+  "description": "Comp 229-Assignment1",
+  "main": "index.js",
   "devDependencies": {},
-  "author": "Dave von Deschwanden",
   "repository": {
     "type": "git",
-    "url": "https://github.com/deschi0000/COMP229-401_Assignment1.git"
-  }
+    "url": "git+https://github.com/deschi0000/COMP229-401_Assignment1.git"
+  },
+  "author": "Dave von Deschwanden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deschi0000/COMP229-401_Assignment1/issues"
+  },
+  "homepage": "https://github.com/deschi0000/COMP229-401_Assignment1#readme"
 }
