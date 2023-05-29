@@ -27,8 +27,9 @@ router.get('/services', function(req, res, next) {
 });
 
 /* GET Contact Us page. */
+// Use a different template as per 1.i.
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact'});
+  res.render('contact', { title: 'Contact'});
 });
 
 module.exports = router;
