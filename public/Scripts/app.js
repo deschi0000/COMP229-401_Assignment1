@@ -1,4 +1,6 @@
 // IIFE -- Immediately Invoked Function Expression
+// Dave von Deschwanden - 301303220 - 05.2023
+
 (function(){
 
     function Start() 

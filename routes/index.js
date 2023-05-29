@@ -1,5 +1,6 @@
-var express = require('express');
-var router = express.Router();
+// Dave von Deschwanden - 301303220 - 05.2023
+let express = require('express');
+let router = express.Router();
 
 /* GET Home page. */
 router.get('/', function(req, res, next) {
