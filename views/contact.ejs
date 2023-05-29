@@ -1,3 +1,4 @@
+<!--Seperate View for Contact Page-->
 <!--Dave von Deschwanden - 301303220 - 05.2023-->
 <%- include partials/header.ejs %>
 
@@ -10,12 +11,26 @@
       <h1 class="display-4 text-center">Welcome to my <%= title %> page </h1>
     </div>
 
-    <!-- My welcome Page -->
-    <% if (title == "Contact") { %>
-    <div class="container">
+    <!-- My Contact Page -->
+    <form method="post" action="contact" class="needs-validation"> 
+      <div class="container contact">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="contact-email" placeholder="name@example.com" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Contact Me!</label>
+          <textarea class="form-control" id="contact-message" rows="3" name="message" required></textarea>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <button type="submit" class="btn btn-dark">Send</button>
+          </div>
+        </div>
+      </div>
+    </form>
 
-    </div>
-    <% } %>
+
 
 
 
