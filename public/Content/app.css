@@ -1,11 +1,16 @@
+/* CSS Styling for Website */
 /*Dave von Deschwanden - 301303220 - 05.2023*/
+
+/* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300&display=swap');
+/* 
+NB:
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'DM Mono', monospace; 
+*/
 
-/* font-family: 'Bebas Neue', sans-serif;
-font-family: 'DM Mono', monospace; */
 
-
-
+/* MAIN PAGE  */
 .display-4{
   padding-top: 3.5rem;
 }
@@ -15,17 +20,22 @@ font-family: 'DM Mono', monospace; */
   padding: 2rem;
   max-width: 50rem;
   margin: auto;
+  margin-top: 3rem;
+  font-family: 'DM Mono', monospace;
+}
+
+.thankyou{
+  padding: 1rem;
+  max-width: 50rem;
+  margin: auto;
+  margin-top: 3rem;
+  font-family: 'DM Mono', monospace;
 }
 
 h1, h3{
   opacity: 0;
 }
 
-.mission-statement {
-  margin-top: 3rem;
-  font-family: 'DM Mono', monospace;
-  /* letter-spacing: 0.1rem; */
-}
 
 .logo {
   max-width: 3rem;
@@ -45,5 +55,24 @@ h1, h3{
   text-decoration: underline;
 }
 
+/* ABOUT PAGE  */
+/* PRODUCTS PAGE  */
+/* SERVICES PAGE  */
+/* CONTACT PAGE  */
+.container .contact {
+  margin-top: 3rem;
+  position: relative;
+} 
 
+.mb-3 {  
+  max-width: 50rem;
+  margin: auto;
+}
 
+.btn .btn-dark{
+  float: right;
+}
+
+form {
+  opacity: 0;
+}
