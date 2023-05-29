@@ -1,9 +1,46 @@
-/* Custom Css goes here */
-/* body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300&display=swap');
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'DM Mono', monospace; */
+
+.display-4{
+  padding-top: 3.5rem;
 }
 
-a {
-  color: #00B7FF;
-} */
+.mission-statement {
+  /* color: red; */
+  padding: 2rem;
+  max-width: 50rem;
+  margin: auto;
+}
+
+h1, h3{
+  opacity: 0;
+}
+
+.mission-statement {
+  margin-top: 3rem;
+  font-family: 'DM Mono', monospace;
+  /* letter-spacing: 0.1rem; */
+}
+
+.logo {
+  max-width: 3rem;
+  margin: 0 1rem;
+}
+
+.about-span{
+  display:block;
+  color: inherit;
+  text-decoration: none;
+  transition: 500ms;
+}
+.about-span:hover {
+  cursor: pointer;
+  font-size: 110%;
+  transition: 800ms;
+  text-decoration: underline;
+}
+
+
+
