@@ -3,12 +3,20 @@
 
 <%- include partials/main_nav.ejs %>
 
+  <% if (message == "Thank You") { %>
+  <div class="container">
+    <h3 class="thankyou text-center border">Thank you for your message!</h3>
 
+  </div>
+  <% } %>
 
   <main class="container">
     <div class="jumbotron">
       <h1 class="display-4 text-center">Welcome to my <%= title %> page </h1>
     </div>
+
+
+
 
     <!-- My welcome Page -->
     <% if (title == "Home") { %>
@@ -22,6 +30,7 @@
 
 
 
+    
 
 
   </main>
