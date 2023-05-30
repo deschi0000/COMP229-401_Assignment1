@@ -1,45 +1,74 @@
 <!--Dave von Deschwanden - 301303220 - 05.2023-->
 <%- include partials/header.ejs %>
 
-<%- include partials/main_nav.ejs %>
+  <%- include partials/main_nav.ejs %>
 
-  <% if (message == "Thank You") { %>
-  <div class="container">
-    <h3 class="thankyou text-center border">Thank you for your message!</h3>
+    <% if (message=="Thank You" ) { %>
+      <div class="container">
+        <h3 class="thankyou text-center border">Thank you for your message!</h3>
 
-  </div>
-  <% } %>
+      </div>
+      <% } %>
 
-  <main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4 text-center">Welcome to my <%= title %> page </h1>
-    </div>
-
-
-
-
-    <!-- My welcome Page -->
-    <% if (title == "Home") { %>
-    <div class="container">
-      <h3 class="mission-statement text-center border">
-        Hard-working. Dedicated. Adaptable. <br>
-        So many Synonyms for Dave.<br>
-        <a class="about-span" href="/about">Come find out more About me</a></h3>
-    </div>
-    <% } %>
+        <main class="container">
+          <div class="jumbotron">
+            <h1 class="display-4 text-center">Welcome to my <%= title %> page </h1>
+          </div>
 
 
 
-    
+
+          <!-- My welcome Page -->
+          <% if (title=="Home" ) { %>
+            <div class="container">
+              <h3 class="mission-statement text-center border">
+                Hard-working. Dedicated. Adaptable. <br>
+                So many Synonyms for Dave.<br>
+                <a class="about-span" href="/about">Come find out more About me</a>
+              </h3>
+            </div>
+            <% } %>
+
+              <% if (title=="About" ) { %>
+
+                <div class="container about-me">
+                  <div class="row">
+                    <div class="col-sm">
+                      <img src="./Assets/images/headshot.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
+
+                    </div>
+                    <div class="col-sm">
+                      I was born in Switzerland, spent most of my formative years in rural Ontario and have passed the
+                      last number of years exploring all the wonderful things Taiwan has to offer. 
+                      <br/><br/>
+                      Currently, I am slowly undergoing a career shift from the Food Industry, to transition into
+                      Software Engineering. I have always been an avid lover of science and technology and am finally
+                      taking the steps to realize the dreams of someone who spent lunch in his High School Programming
+                      club.
+                      <br/><br/>
+                      Aside from spending most of my time in front of a Computer, I still love to cook and bake.
+                      Enjoying hiking, running, photography and digital art/3D modelling.<br/>
+                      <br/><br/>
+                      Hopefully, like in the kitchen industry, I hope to connect and find many like-minded, hardworking
+                      and passionate people that really want to do some cool things in this world.<br/>
+                      <br/><br/>
+                      Please take your time to check out my <a href="./Assets/images/resume2023.pdf" target="_blank" class="resume-link">
+                        Resume</a>. Looking foward to connecting!<br/>
+                    </div>
+
+                  </div>
+                </div>
+
+                <% } %>
 
 
-  </main>
 
 
-<%- include partials/bottom_nav.ejs %>
 
-<%- include partials/footer.ejs %>
 
-  
+        </main>
 
- 
+
+        <%- include partials/bottom_nav.ejs %>
+
+          <%- include partials/footer.ejs %>
