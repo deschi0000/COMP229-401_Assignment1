@@ -27,7 +27,12 @@ $(() => {
     }, 2750)
 
     // Contact Page
-    $("form").animate({
+    $(".contact-me").animate({
+        opacity: 1
+    }, 1000)
+
+    // About Page
+    $(".about-me").animate({
         opacity: 1
     }, 1000)
 
