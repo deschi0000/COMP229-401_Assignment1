@@ -48,11 +48,15 @@ router.get('/contact', (req, res, next) =>  {
 router.post('/contact', (req, res, next) =>  {
 
   // Grab the fields from the post
+  let postFirst = req.body.first;
+  let postLast = req.body.last;
   let postEmail = req.body.email;
   let postMessage = req.body.message;
 
   // Demonstrating how the fields can be stored in JSON (event. a database) 
   let formObject = {
+    firstName: postFirst,
+    lastName: postLast,
     email : postEmail,
     message: postMessage
   };
