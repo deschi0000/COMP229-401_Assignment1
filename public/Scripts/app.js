@@ -36,9 +36,19 @@ $(() => {
         opacity: 1
     }, 1000)
 
+    //Products Page
+    $(".products-container").animate({
+        opacity: 1
+    }, 1000)
+
+    //Service Page
+    $(".services-container").animate({
+        opacity: 1
+    }, 1000)
+
     //Thank you
     $(".thankyou").show(1000)
     .slideUp(1500);
     
-
+    
 })
