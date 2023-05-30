@@ -22,6 +22,7 @@ font-family: 'DM Mono', monospace;
   margin: auto;
   margin-top: 3rem;
   font-family: 'DM Mono', monospace;
+  line-height: 3rem;
 }
 
 .thankyou{
@@ -56,11 +57,32 @@ h1, h3{
 }
 
 /* ABOUT PAGE  */
+
+.about-me {
+  margin-top: 3rem;
+  opacity: 0;
+  font-family: 'DM Mono', monospace;
+  margin-bottom: 15rem;
+}
+
+img {
+  width: 400px;
+}
+
+.resume-link{
+  transition: 500ms;
+}
+
+.resume-link:hover{
+  background-color: rgba(0,0,0,0.05);
+}
+
+
 /* PRODUCTS PAGE  */
 /* SERVICES PAGE  */
 /* CONTACT PAGE  */
 .container .contact {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   position: relative;
 } 
 
@@ -73,6 +95,26 @@ h1, h3{
   float: right;
 }
 
-form {
+.contact-me {
+  margin-top: 3rem;
   opacity: 0;
+  font-family: 'DM Mono', monospace;
+  margin-bottom: 15rem;
+}
+
+.contact-card {
+  padding: 2rem;
+  max-width: 80%;
+  margin-top: 2rem;
+  font-size: medium;
+}
+
+ul{
+  overflow:auto;
+}
+
+li {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
